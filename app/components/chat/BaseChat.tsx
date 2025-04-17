@@ -74,11 +74,10 @@ export const BaseChat = React.forwardRef<HTMLDivElement, BaseChatProps>(
             {!chatStarted && (
               <div id="intro" className="mt-[26vh] max-w-chat mx-auto">
                 <h1 className="text-5xl text-center font-bold text-bolt-elements-textPrimary mb-2">
-                  Where ideas begin
+                  Think it. It’s live.
                 </h1>
                 <p className="mb-4 text-center text-bolt-elements-textSecondary">
-                  Bring ideas to life in seconds or get help on existing projects.
-                </p>
+                  Turns a passing idea into a polished website faster than you can say “publish.”                </p>
               </div>
             )}
             <div
